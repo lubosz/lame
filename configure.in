@@ -675,7 +675,7 @@ AC_MSG_CHECKING(if I have to build the internal vector lib)
 AC_MSG_RESULT(${WITH_VECTOR})
 
 
-AC_PATH_PROG(NASM, nasm, no)
+AC_PATH_PROG(NASM, yasm, no)
 case "${NASM}" in
 no)
 	;;
